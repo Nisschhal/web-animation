@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- LOCAL CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- TWILAND CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- GREEN SOCK ANIMATION CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <!-- LOCAL SCRIPT -->
+    <script src="./app.js" defer></script>
+    <!-- google font: poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,900;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body class="height-screen">
+    <nav
+      class="h-[10vh] flex justify-center items-center font-semibold text-xl"
+    >
+      <h1 class="logo">Skincare</h1>
+    </nav>
+    <div class="relative hero mx-[10%]">
+      <img
+        src="./hero.jpg"
+        class="h-[70vh] w-full object-cover rounded-3xl bg-cover"
+        alt=""
+      />
+      <div
+        class="cta absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col text-white font-bold text-4xl items-center"
+      >
+        <div class="cta-text flex space-x-4 mb-5">
+          <h2><span class="cta1">One</span></h2>
+          <h2><span class="cta2">Stop</span></h2>
+          <h2><span class="cta3">Shop</span></h2>
+        </div>
+        <div class="cta-text flex space-x-4 mb-5">
+          <h2><span class="cta4">One</span></h2>
+          <h2><span class="cta5">Stop</span></h2>
+          <h2><span class="cta6">Shop</span></h2>
+        </div>
+        <div>
+          <button
+            class="py-1 px-6 text-base font-normal bg-white text-gray-700 rounded-md"
+          >
+            Explore
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- </div>
+    <div class="container mx-auto text-center h-screen">
+      <h2 class="font-semibold py-4 text-xl">Skincare</h2>
+    </div> -->
+  </body>
+</html>
